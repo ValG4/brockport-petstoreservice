@@ -26,8 +26,8 @@ public class VerificationMatcherExamplesTests {
 
         @Override
         public boolean matches(List list) {
-            return ((List) list).size() == 2;
-        }
+            return ((List) list).size() == 3;
+        }    //This is the fix for part 1
 
         @Override
         public Class<?> type() {
